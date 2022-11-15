@@ -50,17 +50,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition-property: all;
-    transition-duration: 1s;
+    transition-property: width, height, font-size;
+    transition-duration: 1s, 1s, 1s;
+    transition-delay: 0s, 0s, 1s;
 }
 .text:hover{
     height: 100px;
     background-color: orangered;
-}
-.text:active{
     font-size: 40px;
     cursor: pointer;
 }
+
+/* .text:active{
+    font-size: 40px;
+    cursor: pointer;
+} */
 /* List End */
 
 
