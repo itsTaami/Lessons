@@ -52,7 +52,7 @@
     align-items: center;
     transition-property: width, height, font-size;
     transition-duration: 1s, 1s, 1s;
-    transition-delay: 0s, 0s, 1s;
+    transition-delay: 0s, 0s, 0.3s;
 }
 .text:hover{
     height: 100px;
@@ -61,10 +61,6 @@
     cursor: pointer;
 }
 
-/* .text:active{
-    font-size: 40px;
-    cursor: pointer;
-} */
 /* List End */
 
 
@@ -120,3 +116,41 @@
 }
 
 /* Box-ball End */
+
+
+
+/* Check-box Start */
+
+.center{
+    position: absolute;
+    left: 50px;
+}
+#checkbox{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background: #c6c6c6;
+    appearance: none;
+}
+
+#checkbox:before{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    content: '';
+    background: white;
+    transition: 1s;
+}
+
+#checkbox:checked{
+    background-color: #03a9f4;
+}
+#checkbox:checked::before{
+    left: 40px;
+}
+
+/* Check-box End */
