@@ -1,0 +1,163 @@
+style.css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(137, 176, 223)
+}
+
+
+.survey {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    /* background-color: yellow; */
+    width: 70%;
+    height: 80vh;
+    /* padding-top: 50px ;
+    padding-bottom: 50px ; */
+}
+
+
+
+/* Left Side Start */
+
+.left {
+    width: 50%;
+    background-color: white;
+    /* margin: 0px 50px 0px 0px ;   */
+    border-radius: 15px 0px 0px 15px;
+    padding: 20px 0px 0px 50px;
+}
+
+.left h1 {
+    color: rgb(38, 84, 157);
+
+}
+
+#firstname {
+    width: 180px;
+}
+
+#lastname {
+    width: 180px;
+    margin: 0px 0px 0px 20px;
+}
+
+.left input {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+    margin: 5px auto;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+}
+
+#position {
+    border: 1px solid white;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Left Side End */
+
+
+
+
+/* Right Side Start */
+
+.right {
+    width: 50%;
+    background-color: rgb(58, 58, 193);
+    /* margin: 0px 0px 0px 50px ;  */
+    border-radius: 0px 15px 15px 0px;
+    padding: 20px 0px 0px 50px;
+}
+
+.right h1 {
+    color: white;
+
+}
+
+.right
+::placeholder {
+    color: white;
+}
+
+.right input {
+    border: none;
+    background-color: rgb(58, 58, 193);
+    border-bottom: 1px solid white;
+    margin: 5px auto;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+}
+
+#zipcode {
+    width: 40%;
+}
+
+#place {
+    width: 45%;
+    height: 50px;
+    background-color: rgb(58, 58, 193);
+    color: white;
+    font-size: 18px;
+    margin: 0px 0px 0px 20px;
+    
+}
+select{
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#country {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(58, 58, 193);
+    color: white;
+    font-size: 15px;
+}
+
+#code {
+    width: 40%;
+    margin: 0px 40px 0px 0px;
+    margin-top: 20px;
+}
+
+#number {
+    width: 40%;
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+}
+
+#box {
+    width: 20px;
+    margin: 20px 20px 0px 0px;
+}
+
+#text {
+    margin: 20px 20px 0px 0px;
+    font-size: 18px;
+    color: white;
+    width: 500px;
+}
+
+#register {
+
+    background-color: white;
+    width: 40%;
+    border: 5px solid grey;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+/* Right Side End */
