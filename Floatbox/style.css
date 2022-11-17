@@ -1,0 +1,234 @@
+/* Float-box Start */
+
+.floatbox{
+
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow:10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 230, 230, 0.6)
+}
+
+.wbox{
+    position: absolute;
+    background-color: white;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.wbox1{
+    top: 30%;
+    left: 30%;
+    
+}
+
+.wbox2{
+    top: 30%;
+    right: 30%;
+    
+}
+
+.wbox3{
+    bottom: 30%;
+    left: 30%;
+}
+
+.wbox4{
+    bottom: 30%;
+    right: 30%;
+}
+
+.rbox{
+    position: absolute;
+    background-color: red;
+    width: 95px;
+    height: 95px;
+    opacity: 0.1;
+}
+
+.rbox1{
+    top: 30%;
+    left: 30%;
+    
+}
+
+.rbox2{
+    top: 30%;
+    right: 30%;
+    
+}
+
+.rbox3{
+    bottom: 30%;
+    left: 30%;
+}
+
+.rbox4{
+    bottom: 30%;
+    right: 30%;
+}
+
+.floatbox:hover.rbox1{
+    top: 0%;
+    left: 0%;
+    
+}
+
+.floatbox:hover.rbox2{
+    top: 0%;
+    right: 0%;
+    
+}
+
+.floatbox:hover.rbox3{
+    bottom: 0%;
+    left: 0%;
+}
+
+.floatbox:hover.rbox4{
+    bottom: 0%;
+    right:0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wbox1{
+    top: 0;
+    left: 0;
+    
+}
+
+.wbox2{
+    top: 0;
+    right: 0;
+    
+}
+
+.wbox3{
+    bottom: 0;
+    left: 0;
+}
+
+.wbox4{
+    bottom: 0;
+    right: 0;
+} */
+
+/* .wtop{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+}
+
+.wbot{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: aquamarine;
+}
+
+.wbox{
+    background-color: aqua;
+    width: 45%;
+    height: 100%;
+    opacity: 0.1;
+    
+} */
+/* .red-box{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border: 1px solid red;
+}
+
+.white-box{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+} */
+
+
+/* 
+
+.wbox{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+} */
+
+/* .wbox1{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+}
+
+.wbox2{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+} */
+
+/* .wbox3{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+}
+
+.wbox4{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+} */
+
+/* .rtop{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    opacity: 0.3;
+}
+
+.rbottom{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: aquamarine;
+    opacity: 0.3;
+}
+
+.rbox{
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    margin: 50px;
+    
+} */

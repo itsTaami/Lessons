@@ -173,9 +173,8 @@
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: black;
-    transition-property: width,;
-    transition-duration: 0s;
+    transition-property: width;
+    transition-duration: 0.5s;
     transition-delay: 0s;
     transition-timing-function: linear;
 } 
@@ -194,18 +193,124 @@
     margin-top: 35px;
 }
 .bar{
+    width: 100px;
+    height: 50px;
     text-align: center;
     background-color: teal;
-    color: white;
+    color: teal;
     line-height: 60px;
     margin-top: 25px;
-    transition-property: all;
-    transition-duration: 1s;
+    font-size: 30px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
-.bar:hover{
+.sidebar:hover .bar{
+    width: 400px;
+    color: white;
+    font-size: 30px;
+    transition-property: font-size, width, color;
+    transition-duration: 0.2s, 0.5s, 0s;
+}
+.sidebar:hover .bar:hover{
+
     background-color: white;
     color: black;
-    font-size: 40px;
+    font-size: 50px;
+    
+
+}
+
+/* Shy Badge Start */
+
+
+.shy-box{
+    background-color: grey;
+    width: 250px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 900;
+    
+}
+.dot{
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    transition-property: right, top, visibility, opacity;
+    transition-duration: 1s, 1s, 0.5s, 1s;
+    transition-delay: 0s, 0s, 0s, 0s;
+    transition-timing-function: ease-in-out;
+    z-index: 1000;
+}
+
+.shy-box:hover{
+    background-color: red;
+    z-index: 1000;
+}
+
+.shy-box:hover .dot{
+    right: 70px;
+    top: 5px;
+    z-index: 900;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Shy Badge End */
+
+
+/* Float-box Start */
+
+.float-box{
+
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow:10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-box{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-box{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wbox1{
+    width: calc(100%/4);
+    height: calc(100%/4);
+    background-color: black;
+    margin-top: 112px;
 
 }
 
