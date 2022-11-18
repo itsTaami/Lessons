@@ -32,6 +32,7 @@ body{
     border: none;
     padding: 10px 25px;
     font-size: 24px;
+    border-radius: 25px;
 }
 .searchbox input::placeholder{
    color: transparent;
