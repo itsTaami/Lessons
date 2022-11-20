@@ -1,0 +1,36 @@
+.hover{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    border: none;
+    
+}
+.hover:hover{
+    cursor: pointer;
+    width: 100%;
+    background-color: blue;
+}
+
+.tap-input{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    border: none;
+    text-align: center;
+}
+
+.tap-input:focus{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+
+
+}
