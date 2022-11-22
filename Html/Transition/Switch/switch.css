@@ -26,6 +26,5 @@
 }
 #checkbox:checked::before{
     left: 40px;
-    
     background: rgb(0, 255, 0);
 }
