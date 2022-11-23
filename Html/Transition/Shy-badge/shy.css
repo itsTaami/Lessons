@@ -7,11 +7,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 900;
     
 }
 .dot{
-    width: 35px;
+    /* width: 35px;
     height: 35px;
     background-color: red;
     border-radius: 50%;
@@ -24,19 +23,27 @@
     transition-property: right, top, visibility, opacity;
     transition-duration: 1s, 1s, 0.5s, 1s;
     transition-delay: 0s, 0s, 0s, 0s;
-    transition-timing-function: ease-in-out;
-    z-index: 1000;
+    transition-timing-function: ease-in-out; */
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right:-15px;
+    top: -15px;
+    color: white;
+    transition-duration: 1s;
 }
 
 .shy-box:hover{
     background-color: red;
-    z-index: 1000;
 }
 
 .shy-box:hover .dot{
-    right: 70px;
-    top: 5px;
-    z-index: 900;
-    visibility: hidden;
-    opacity: 0;
+    transform: translate(-50px,15px);
+    color: red;
+    z-index: -1;
 }
