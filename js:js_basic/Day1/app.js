@@ -233,11 +233,11 @@ console.log("c=", PTI * d);
 
 // No22
 
-let e, firstnumber, a;
+let e, u, a;
 
-e = 123;
-firstnumber = e % 100;
-a = e - firstnumber;
+e = 728;
+u = e % 100;
+a = e - u;
 et=a/100;
 console.log("et=",et)
 
