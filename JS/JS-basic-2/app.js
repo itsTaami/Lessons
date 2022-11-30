@@ -249,13 +249,10 @@ if (h > 30) {
 // Easy 6
 
 
-
-// let number = prompt("Enter a number:" ,50);
-
 let number = 51;
 
 
-if(number % 2 == 0) {
+if (number % 2 == 0) {
     console.log("Even.");
 }
 
@@ -269,11 +266,11 @@ else {
 
 let too = 1;
 
-if( too<0 ){
+if (too < 0) {
 
     console.log("Negative");
 }
-else{
+else {
     console.log("Positive");
 }
 
@@ -297,39 +294,120 @@ if (0 < old && old <= 1) {
     console.log("Toddler");
 
 
-} else if (3 < old && old<= 5) {
+} else if (3 < old && old <= 5) {
 
     console.log("Preschool");
 
 
-} else if (5 < old && old<= 12) {
+} else if (5 < old && old <= 12) {
 
     console.log("Gradeschool");
 
 
-} 
+}
 else if (12 < old && old <= 18) {
 
     console.log("Teen");
 
 
-}else if (18 < old && old <= 21) {
+} else if (18 < old && old <= 21) {
 
     console.log("Young adult");
 
 
-}else if (21 <= old) {
+} else if (21 <= old) {
 
     console.log("Adult");
 
 
-}else {
+} else {
 
     console.log("Wrong answer");
 }
 
 
 // Suragchiid Dun
+
+
+
+
+
+// Leap Year 
+
+
+let years=2000;
+
+
+if ((0 == years % 4) && (0 != years % 100) || (0 == years % 400)) {
+    console.log(years + ' Leap year mun');
+} else {
+    console.log(years + ' Leap year bish');
+}
+
+
+// 4 tooni baga
+
+
+let q = 120; 
+let w = 30;
+let e =20;
+let r = 100;
+
+
+
+if( q<w && q<e && q<r){
+
+    console.log("Hamgiin Baga too n" , q);
+}else if (w<q && w<e && w<r){
+
+    console.log("Hamgiin Baga too n" , w);
+
+}else if (e<q && e<w && e<r){
+
+    console.log("Hamgiin Baga too n" , e);
+
+}else if (r<q && r<e && r<w){
+
+    console.log("Hamgiin Baga too n" , r);
+
+}
+
+
+// Өгөгдсөн тоонуудын хамгийн их болон хамгийн багыг олно уу
+
+
+let j=50;
+let k=100;
+let l=150;
+
+
+if( j<k && j<l){
+
+    console.log("3 toonii hamgiin baga n" , j);
+} else if (k<j && k<l){
+
+    console.log("3 toonii hamgiin baga n", k);
+} else if (l<j && l<k){
+
+    console.log("3 toonii hamgiin baga n", l);
+}
+
+if( j>k && j>l){
+
+    console.log("3 toonii hamgiin ih n" , j);
+} else if (k>j && k>l){
+
+    console.log("3 toonii hamgiin ih n", k);
+} else if (l>j && l>k){
+
+    console.log("3 toonii hamgiin ih n", l);
+}
+
+
+
+
+
+
 
 
 
