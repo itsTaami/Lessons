@@ -379,29 +379,59 @@ if( q<w && q<e && q<r){
 let j=50;
 let k=100;
 let l=150;
+let min=0, max=0;
 
 
 if( j<k && j<l){
 
     console.log("3 toonii hamgiin baga n" , j);
+
+    min=j
 } else if (k<j && k<l){
 
     console.log("3 toonii hamgiin baga n", k);
+
+    min=k
+
 } else if (l<j && l<k){
 
     console.log("3 toonii hamgiin baga n", l);
+
+    min=l
 }
 
 if( j>k && j>l){
 
     console.log("3 toonii hamgiin ih n" , j);
+
+    max=j
 } else if (k>j && k>l){
 
     console.log("3 toonii hamgiin ih n", k);
+
+    max=k
+
 } else if (l>j && l>k){
 
     console.log("3 toonii hamgiin ih n", l);
+
+    max=l
+
 }
+
+
+// Tip
+
+
+let price = prompt('Uniin dun'), price1 = Number (price);
+
+console.log(price1<=5000 && price1>=30000 ? price1 *0.15+ price1 : price1 *0.2+ price1 );
+
+
+
+
+
+
 
 
 
