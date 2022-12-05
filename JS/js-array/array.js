@@ -191,25 +191,28 @@
 // console.log(Triangle);
 
 
-let arr = [1,2,3,4,1];
+let too = "12341";
 
-let obj = [];
+console.log(too);
 
-for ( let i = 0; i < arr.length; i++){
+let tsifr = 0;
+while( tsifr <= 9 ){
+    let count = 0;
+    for(let i = 0; i < too.length; i++){
 
-    obj[arr[i]] = obj[arr[i]] ? obj [ arr[i]]+1 : 1;
+        if(too[i] == tsifr){
+            count++;
+        }
+        
+        
+    }
+    console.log(tsifr + ':' + count);
+    tsifr++;
+
 }
 
-console.log("1-",obj[1]);
-console.log("2-",obj[2]);
-console.log("3-",obj[3]);
-console.log("4-",obj[4]);
-console.log("5-",obj[5]);
-console.log("6-",obj[6]);
-console.log("7-",obj[7]);
-console.log("8-",obj[8]);
-console.log("9-",obj[9]);
-console.log("0-",obj[0]);
+
+
 
 
 // let arr1 = [3, 45, 23, 78, 34];
