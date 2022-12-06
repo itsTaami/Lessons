@@ -174,12 +174,12 @@
 
 
 // let n = 5
-// var Triangle = [];
+// let Triangle = [];
 
-// for (var i = 0; i < n; i++) {
+// for (let i = 0; i < n; i++) {
 //     Triangle[i] = new Array(i);
 
-//     for (var j = 0; j < i + 1; j++) {
+//     for (let j = 0; j < i + 1; j++) {
 //         if (j === 0 || j === i) {
 //             Triangle[i][j] = 1;
 //         } else {
@@ -191,25 +191,25 @@
 // console.log(Triangle);
 
 
-let too = "12341";
+// let too = "12341";
 
-console.log(too);
+// console.log(too);
 
-let tsifr = 0;
-while( tsifr <= 9 ){
-    let count = 0;
-    for(let i = 0; i < too.length; i++){
+// let tsifr = 0;
+// while( tsifr <= 9 ){
+//     let count = 0;
+//     for(let i = 0; i < too.length; i++){
 
-        if(too[i] == tsifr){
-            count++;
-        }
+//         if(too[i] == tsifr){
+//             count++;
+//         }
         
         
-    }
-    console.log(tsifr + ':' + count);
-    tsifr++;
+//     }
+//     console.log(tsifr + ':' + count);
+//     tsifr++;
 
-}
+// }
 
 
 
@@ -266,6 +266,19 @@ while( tsifr <= 9 ){
 // }
 // console.log("Even-" ,even);
 // console.log("Odd-" ,odd);
+
+
+// let n = 5;
+
+// let arr =[5];
+
+// for(let i=1; i<= n; i++){
+
+//     arr.push[i];
+//     console.log(arr);
+    
+// }
+
 
 
 
