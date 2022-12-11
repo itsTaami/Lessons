@@ -105,7 +105,7 @@ let yourage = 310;
 console.log(myage);
 console.log(yourage);
 
-// No11
+// No10
 
 let x = 4;
 
@@ -120,7 +120,7 @@ console.log(z);
 console.log("p=", x + y + z);
 
 
-// No12
+// No11
 
 let p = 4;
 
@@ -129,19 +129,14 @@ let r = 2;
 console.log("s=", p * r ** 2);
 
 
-// No13
+// No12
 
 
-let y1, y2, x2, x1;
-
-y1 = 10;
-y2 = 20;
-x1 = 50;
-x2 = 100;
+let y1 = 10, y2 = 20, x1 = 50, x2 = 100;
 
 console.log("m=", y2 - y1 / x2 - x1);
 
-// No14
+// No13
 
 let gb, b;
 
@@ -153,11 +148,11 @@ bit = gb * b;
 
 console.log(bit);
 
+// No14 
+
+
+
 // No15
-
-
-
-// No16
 
 let side1, side2, side3;
 
@@ -168,7 +163,7 @@ side3 = 10;
 console.log("S=", (side1 + side2 + side3) / 2);
 
 
-// No17
+// No16
 
 let c;
 
@@ -176,7 +171,7 @@ c = 10;
 
 console.log("f=", (c * 1.8) + 32);
 
-// No18
+// No17
 
 let f;
 
@@ -186,7 +181,7 @@ console.log("c=", (f - 32) * 5 / 9);
 
 
 
-// No19
+// No18
 
 let h1, h2;
 
@@ -201,7 +196,7 @@ console.log(h1 % h2);
 
 
 
-// No20
+// No19
 
 let cm;
 
@@ -216,7 +211,7 @@ inch = 10;
 console.log("cm=", inch * 2.54);
 
 
-// No21
+// No20
 
 let ra, d;
 
@@ -231,7 +226,7 @@ console.log("v=", 4 / 3 * PTI * ra ** 3);
 console.log("c=", PTI * d);
 
 
-// No22
+// No21
 
 let e, u, a;
 
@@ -242,10 +237,8 @@ et=a/100;
 console.log("et=",et)
 
 
-// console.log("x=", a / 100);
 
-
-// No23
+// No22
 
 
 let n1="Baby-Shark "; n2="doo-doo,doo-doo";
