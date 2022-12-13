@@ -38,7 +38,7 @@ const divs = document.getElementsByClassName("box");
 
 let change = () =>{
 
-    for (let i = 0; i < box.length; i++) {
+    for (let i = 0; i < divs.length; i++) {
 
         let color = getColor();
         divs[i].style.backgroundColor = color;
@@ -57,4 +57,4 @@ const getColor = () =>{
 
 }
 
-myBtn
+myBtn.addEventListener('click',change);
