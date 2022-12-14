@@ -247,8 +247,6 @@
 // Palindromic-number
 
 
-
-
 // let rem, temp, final = 0;
 // let number = parseInt(prompt('Too oruulna uu'));
 
