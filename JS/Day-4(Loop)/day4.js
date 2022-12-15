@@ -298,31 +298,90 @@
 
 
 
-let rows = parseInt(prompt("Too oruulna uu"));
+// let rows = parseInt(prompt("Too oruulna uu"));
 
 
 
-for (let i = 0; i < rows; i++) {
-    let output = '0';
-    for (let j = 0; j < rows - i; j++) output += '5';
-    for (let k = 0; k <= i; k++) output += ' *';
-    console.log(output);
-}
+// for (let i = 0; i < rows; i++) {
+//     let output = '0';
+//     for (let j = 0; j < rows - i; j++) 
+// output += '5';
+//     for (let k = 0; k <= i; k++) 
+// output += ' *';
+//     console.log(output);
+// }
 
-console.log(rows);
-
-
-
-
+// console.log(rows);
 
 
+// Davhar davtalt - 1
+
+// let rows = Number(prompt("..."));
+
+// let output = ` `;
+
+// for (let i = 1; i <= rows; i++) {
+
+//     output = ` `;
+
+//     for (let j = i; j <= rows; j++) {
+        
+
+//         output += `${j} `;
+        
+        
+//     }
+
+//     console.log(output);
+    
+// }
 
 
 
 
+// Davhar davtalt - 2
+
+// let rows = Number(prompt("..."));
+
+// let output = ` `;
+
+// for (let i = 1; i <= rows; i++) {
+
+//     output = ` `;
+
+//     for (let j = 1; j < i + 1; j++) {
+        
+
+//         output += `${j} `;
+        
+        
+//     }
+
+//     console.log(output);
+    
+// }
 
 
+// let n = 5; // row or column count
+// // defining an empty string
+// let string = "";
 
-
-
-
+// for(let i = 0; i < n; i++) { // external loop
+//   for(let j = 0; j < n; j++) { // internal loop
+//     if(i === 0 || i === n - 1) {
+//       string += "*";
+//     }
+//     else {
+//       if(j === 0 || j === n - 1) {
+//         string += "*";
+//       }
+//       else {
+//         string += " ";
+//       }
+//     }
+//   }
+//   // newline after each row
+//   string += "\n";
+// }
+// // printing the string
+// console.log(string);
