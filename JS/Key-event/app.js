@@ -8,10 +8,14 @@ let todayDate = new Date().toISOString().slice(0, 10);
 
 document.getElementById("date").innerHTML = "On sar Udur:" + todayDate;
 
+const allTask = [
+    { name: JS, status: false, priority: "High"},
+    { name: HTML, status: false, priority: "High"},]
+
 const cardItem = (text) => {
     const item = `
                 <div class="task">
-                    <input type="text" class="text" readonly value="${text}" />
+                    <input type="text ${done}" class="text" readonly value="${allTask[inputText.name]}" />
                     <div class="actions">
                         <button class="edit" onclick="edit(this)"><i class="fas fa-pen"></i></button>
                         <button class="done" onclick="done(this)"><i class="fas fa-check"></i></button>
@@ -91,7 +95,7 @@ const edit = (e) => {
 
     let icon = e.children[0];
 
-    // icon oo avave
+    // icon oo avav
     if (input.hasAttribute("readonly")) {
         input.removeAttribute("readonly");
     } else {
