@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="#">
+            <input type="text" class="screen" id="inputtext">
+        </form>
+        <div class="buttons">
+
+            <div class="top-1">
+                <button class="item item1 clear" onclick="clr()">AC</button>
+                <button class="item item1 negative" onclick="del()">DEL</button>
+                <button class="item percent sign" onclick="calculate('%')">%</button>
+                <button class="item item3 sign" onclick="calculate('/')">/</button>
+            </div>
+
+            <div class="top-2">
+                <button class="item numbers" onclick="calculate(7)">7</button>
+                <button class="item numbers" onclick="calculate(8)">8</button>
+                <button class="item numbers" onclick="calculate(9)">9</button>
+                <button class="item item3 sign" onclick="calculate('*')">x</button>
+            </div>
+
+            <div class="mid">
+                <button class="item numbers" onclick="calculate(4)">4</button>
+                <button class="item numbers" onclick="calculate(5)">5</button>
+                <button class="item numbers" onclick="calculate(6)">6</button>
+                <button class="item item3 sign" onclick="calculate('-')">-</button>
+            </div>
+
+            <div class="mid-2">
+                <button class="item numbers" onclick="calculate(1)">1</button>
+                <button class="item numbers" onclick="calculate(2)">2</button>
+                <button class="item numbers" onclick="calculate(3)">3</button>
+                <button class="item item3 sign" onclick="calculate('+')">+</button>
+            </div>
+
+            <div class="bot">
+                
+                <button class="item numbers zero" onclick="calculate(0)">0</button>
+                <button class="item comma" onclick="calculate('.')">.</button>
+                <button class="item item3 equals" onclick="Result()">=</button>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

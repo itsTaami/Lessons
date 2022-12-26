@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+ul li{
+
+    list-style: none;
+    font-size: 12px;
+}
+
+ul a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.btn button{
+
+    border: 1px solid blue;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: white;
+}
+.shy-box{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.dot{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right:-5px;
+    top: -10px;
+    color: white;
+    transition-duration: 1s;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* .shy-box:hover{
+    background-color: red;
+}
+
+.shy-box:hover .dot{
+    transform: translate(-50px,15px);
+    color: red;
+    z-index: -1;
+} */
