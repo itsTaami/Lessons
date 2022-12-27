@@ -60,3 +60,7 @@ ul a{
     color: red;
     z-index: -1;
 } */
+
+.offcanvas{
+    width: 30% !important;
+}
